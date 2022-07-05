@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: clip;
+}
+
+#container {
+  background-color: gray;
+  position: absolute;
+  display:flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+#player {
+  position: absolute;
+  height: 15vh;
+  left: 38vw;
+  top: 85vh;
+}
+
+#lane1 {
+  width: 33.33vw;
+  height: 100vh;
+  border-right: 1px dashed white;
+}
+
+#lane2 {
+  width: 33.33vw;
+  height: 100vh;
+  border-right: 1px dashed white;
+}
+
+#lane3 {
+  width: 33.33vw;
+  height: 100vh;
+  border-right: 1px dashed white;
+}
+.trucks{
+  position: absolute;
+  top:0vh;
+  height: 15vh;
+}
+#car3{
+  border:5px solid white;
+}
+#over{
+  height: 100vh;
+  width: 100vw;
+  display:none;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+#overtext{
+  font-size:5vh;
+  font-weight: bold;
+ color: white;
+}
